@@ -1,0 +1,92 @@
+body{
+	/* colors 
+	pink: #EC576B;
+	turquoise: #4EC5C1;
+	tangerine: #FF7F50;
+	*/
+	background-color: white;
+	font-family: Raleway;
+	font-size: 20px;
+	color: black;
+	}
+
+h1{
+	text-align: center;
+	color: #FF7F50;
+	font-size: 3rem;}
+#par1{
+	text-align: center;
+	color: #FF7F50;}
+
+h2{
+	font-size: 2rem;
+	margin: 2rem;}
+div{
+	background-color: white;}
+
+.descriptor{
+	font-size: .75rem;
+	color: white; 
+	font-weight: thin;}
+.sample{
+	color: white; }
+
+#FW{
+	color: #EC576B;}
+#weight{
+	background-color: #EC576B;
+	border: .1rem;
+	margin: 2rem;
+	padding: 10px;}
+.bold-weight{
+	font-weight: bold;}
+.thin-weight{
+	font-weight: thin;}
+
+#FS{
+	color: #4EC5C1;}
+#style{
+	background-color: #4EC5C1;
+	border: .1rem;
+	margin: 2rem;
+	padding: 10px;}
+.italic-style{
+	font-style: italic;}
+
+#LS{
+	color: #FF7F50;}
+#spacing{
+	background-color: #FF7F50;
+	border: .1rem;
+	margin: 2rem;
+	padding: 10px;}
+.low-spacing{
+	letter-spacing: -1px;}
+.high-spacing{
+	letter-spacing: 3px;}
+
+#TD{
+	color: #EC576B;}
+#decoration{
+	background-color: #EC576B;
+	border: .1rem;
+	margin: 2rem;
+	padding: 10px;}
+.decorate-underline{
+	text-decoration: underline;}
+.decorate-strike{
+	text-decoration: line-through;}
+
+#TT{
+	color: #4EC5C1;}
+#transform{
+	background-color: #4EC5C1;
+	border: .1rem;
+	margin: 2rem;
+	padding: 10px;}
+.transform-uppercase{
+	text-transform: uppercase;}
+.transform-lowercase{
+	text-transform: lowercase;}
+.transform-capitalize{
+	text-transform: capitalize;}
