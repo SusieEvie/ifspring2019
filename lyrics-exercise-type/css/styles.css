@@ -1,0 +1,48 @@
+body {
+  background-image: 
+    url("building.png"),
+    url("spotty.png");
+  background-position:
+    left top; 
+  background-repeat:
+  	repeat-y, /*this applies to the first image*/
+    repeat; /* this positions the second image */
+background-color: #9593b5;
+background-size: 50%;
+margin-bottom: -50px;
+position: relative;
+top: 10px;
+left: 0px;
+margin: 25px;
+margin bottom: 50px;
+}
+
+header{
+font-family: 'Amatic SC', cursive;
+font-weight: 700;
+
+position: relative;
+color: moccasin;
+}
+
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 28px;
+}
+
+.lyrics {
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-weight: 300;
+color: lavender;
+opacity: 50%;
+font-size: 18px;
+position: relative;
+}
+
+.chorus{
+	font-style: italic;
+}
