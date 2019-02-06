@@ -27,7 +27,7 @@ div{
 .descriptor{
 	font-size: .75rem;
 	color: white; 
-	font-weight: thin;}
+	font-weight: 100;}
 .sample{
 	color: white; }
 
@@ -41,7 +41,7 @@ div{
 .bold-weight{
 	font-weight: bold;}
 .thin-weight{
-	font-weight: thin;}
+	font-weight: 100;}
 
 #FS{
 	color: #4EC5C1;}
