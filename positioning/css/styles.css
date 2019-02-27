@@ -1,0 +1,39 @@
+#section1 aside{
+	float: right;
+}
+section{
+	position: relative;
+}
+
+#section2 aside{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#section3 aside{
+	position: fixed;
+	background-color: green;
+	top: 0px;
+	right: 0px;
+}
+
+#section4 #aside1{
+	position: absolute;
+	background-color: red;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 50px;
+}
+
+#section4 #aside2{
+	position: absolute;
+	background-color: black;
+	left: 50%;
+	margin-left: -90px;
+	margin-top: 60px;
+}
+
+
+
+
