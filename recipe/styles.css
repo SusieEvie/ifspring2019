@@ -42,7 +42,6 @@ h4{
 
 p{
 	text-align: center;
-	font-size: 36px;
 	font-family: 'Roboto';
   	font-weight: 300;
 }
@@ -79,7 +78,7 @@ p{
 	left: 50%;
     transform: translateX(-50%);
 	position: absolute;
-  	top: 1500px;
+  	top: 1400px;
   	padding: 50px;
 }
 
