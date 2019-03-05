@@ -1,0 +1,122 @@
+body{
+	margin: auto;
+}
+
+.white{
+	background-color: white;
+	color: orange;
+}
+
+.yellow{
+	background-color: gold;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	font-size: 105px;
+	font-family: 'Slabo 27px';
+	color: orange;
+}
+
+h2{
+	text-align: center;
+	font-size: 92px;
+	font-family: 'Slabo 27px';
+
+}
+
+h3{
+	text-align: center;
+	font-size: 72px;
+	font-family: 'Slabo 27px';
+}
+
+h4{
+	text-align: center;
+	font-size: 64px;
+	font-family: 'Roboto';
+  	font-weight: 300;
+  	margin-top: 250px;
+}
+
+p{
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Roboto';
+  	font-weight: 300;
+}
+
+.list{
+	width: 80%;
+	margin: auto;
+    
+}
+
+#title1{
+	position: relative;
+	padding-top: 100px;
+}
+
+#how{
+	margin-bottom: -50px;
+}
+
+#mainPic{
+	left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+	position: fixed;
+	width: 800px;
+	height:800px;
+	border-radius: 50%;
+	background-color: grey;
+	margin: auto;
+}
+
+#circleSet{
+	height: 20px;
+	left: 50%;
+    transform: translateX(-50%);
+	position: absolute;
+  	top: 1500px;
+  	padding: 50px;
+}
+
+.white .circle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: solid orange 2px;
+	margin: 15px;
+	display: inline-block;
+}
+
+.yellow .circle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: solid white 2px;
+	margin: 15px;
+	display: inline-block;
+}
+
+#pageOne #circle1{
+	background-color: orange;
+}
+#pageOne #circle2: hover{
+	background-color: orange;
+}
+
+#pageTwo #circle2{
+	background-color: white;
+}
+#pageThree #circle3{
+	background-color: orange;
+}
+#pageFour #circle4{
+	background-color: white;
+}
+#pageFive #circle5{
+	background-color: orange;
+}
