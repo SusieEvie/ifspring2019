@@ -64,7 +64,6 @@ p{
 	left: 50%;
     transform: translateX(-50%);
     top: 30%;
-	position: fixed;
 	width: 800px;
 	height:800px;
 	border-radius: 50%;
