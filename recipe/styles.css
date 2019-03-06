@@ -43,6 +43,7 @@ p{
 	text-align: center;
 	font-family: 'Roboto';
   	font-weight: 300;
+  	font-size: 28px;
 }
 
 .list{
@@ -61,6 +62,7 @@ p{
 }
 
 #mainPic{
+	position: fixed;
 	left: 50%;
     transform: translateX(-50%);
     top: 30%;
@@ -75,7 +77,8 @@ p{
 	height: 20px;
 	left: 50%;
     transform: translateX(-50%);
-	position: absolute;
+  	position: fixed;
+  	bottom: 300px;
   	top: 1400px;
   	padding: 50px;
 }
@@ -96,16 +99,6 @@ p{
 	border: solid white 2px;
 	margin: 15px;
 	display: inline-block;
-}
-
-.white .circle:hover{
-	background-color: gold;
-	border: gold;
-}
-
-.yellow .circle:hover{
-	background-color: orange;
-	border: orange;
 }
 
 #pageOne #circle1{
