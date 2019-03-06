@@ -16,7 +16,6 @@ h1{
 	text-align: center;
 	font-size: 105px;
 	font-family: 'Slabo 27px';
-	color: orange;
 }
 
 h2{
@@ -49,7 +48,7 @@ p{
 .list{
 	width: 80%;
 	margin: auto;
-    
+    font-size: 32px;
 }
 
 #title1{
@@ -100,6 +99,16 @@ p{
 	display: inline-block;
 }
 
+.white .circle:hover{
+	background-color: gold;
+	border: gold;
+}
+
+.yellow .circle:hover{
+	background-color: orange;
+	border: orange;
+}
+
 #pageOne #circle1{
 	background-color: orange;
 }
@@ -118,4 +127,14 @@ p{
 }
 #pageFive #circle5{
 	background-color: orange;
+}
+
+#bottomBar{
+	background-color: orange;
+	height: 150px;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	color: white;
+  	font-size: 1.5rem;
 }
