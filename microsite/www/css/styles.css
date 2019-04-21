@@ -8,6 +8,7 @@ body{
 .center-column{
 	margin: auto;
 	width: 80%;
+	padding-bottom: 5%;
 }
 
 h1{
@@ -40,9 +41,8 @@ a{
 	font-weight: 400;
 }
 
-.nav:hover {
+.nav h2:hover {
 	font-weight: 700;
-	text-decoration: underline;
 }
 
 h3{
@@ -72,8 +72,7 @@ h3{
 #intro{
 	display: inline-block;
 	float: left;
-	width: 50%;
-	padding: 5%;
+	width: 55%;
 	padding-top: 0;
 }
 
@@ -91,7 +90,6 @@ h3{
 	max-width: 500px;
 	display: inline-block;
 	padding-left: 2%
-	padding-bottom: 10%;
 }
 
 #bottomBar{
@@ -99,11 +97,25 @@ h3{
 	background-color: #026983;
 	color: white;
 	position: fixed;
-    z-index: 100; 
     bottom: 0; 
     left: 0;
     width: 100%;
     font-size: .8rem;
     text-align: center;
     padding: 5px;
+}
+
+.clearer{
+	clear: both;
+}
+
+#aboutConcour{
+	display: inline-block;
+	width: 35%;
+	padding: 5%;
+}
+
+#concour1{
+	display: inline-block;
+	width: 50%;
 }

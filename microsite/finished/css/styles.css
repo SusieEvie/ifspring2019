@@ -1,0 +1,204 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+	padding: 0;
+	position: relative;
+}
+
+.center-column{
+	margin: auto;
+	width: 80%;
+	padding-bottom: 5%;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: #026983;
+	font-size: 2rem;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.nav{
+	display: inline-block;
+	width: 22%;
+	align-content: center;
+	text-decoration: none;
+}
+
+.nav h2{
+	text-align: center;
+	font-size: 1rem;
+	color: #026983;
+	font-weight: 400;
+}
+
+.nav h2:hover {
+	font-weight: 700;
+}
+
+h3{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#navigation{
+	width: 90%;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: center;
+}
+
+.coverPhoto{
+	width: 100%;
+	height: 10%;
+	padding-bottom: 3%
+}
+
+.coverPhoto img{
+	width: 100%;
+
+}
+
+#intro{
+	display: inline-block;
+	float: left;
+	width: 65%;
+	padding-top: 0;
+}
+
+#beach2{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: auto;
+}
+
+#tree{
+	float: right;
+	width: 30%;
+	height: auto;
+	max-width: 500px;
+	display: inline-block;
+	padding-left: 2%
+}
+
+#bottomBar{
+	height: 2%;
+	background-color: #026983;
+	color: white;
+	position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    font-size: .8rem;
+    text-align: center;
+    padding: .5%;
+}
+
+.clearer{
+	clear: both;
+}
+
+#aboutConcour{
+	display: inline-block;
+	width: 25%;
+	padding: 5%;
+	position: absolute;
+	top: 10%;
+}
+.concour{
+	display: inline-block;
+	width: 44%;
+}
+
+#concour1{
+	width: 60%;
+}
+
+#concour2{
+	padding-right: 2%;
+}
+
+#concourimages{
+	margin: 0;
+	padding: 0;
+	width: 111%;
+}
+
+@media (max-width: 1000px){
+
+	body{
+		font-size: .75rem;
+	}
+
+	h1{
+		font-size: 1.5rem;
+	}
+	.nav h2{
+		font-size: .8rem;
+	}
+
+	h3{
+		font-size: 1.2rem;
+	}
+
+	#tree{
+		display: none;
+	}
+
+	#intro{
+		width: 100%;
+	}
+
+	#beach2{
+		padding-bottom: 5%;
+	}
+
+	#bottomBar{
+		font-size: .4rem;
+	}
+
+	#concour1{
+		display:block;
+		width: 100%;
+	}
+	#aboutConcour{
+		display: block;
+		position: relative;
+		width: 100%;
+		padding: 0;
+	}
+	#concourimages{
+		margin: 0;
+		padding: 0;
+	}
+	}
+
+	@media (max-width: 800px){
+	#concourimages img{
+		display: block;
+		width: 90%;
+		padding-bottom: 5%;
+	}
+
+	h1{
+		font-size: 1.2rem;
+	}
+	.nav h2{
+		font-size: .75rem;
+	}
+
+	h3{
+		font-size: 1rem;
+	}
+}
