@@ -2,18 +2,23 @@
 <html>
 
 <head>
-	<title>April's Postcard</title>
+	<title>Ron's Postcard</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
-	<body class="index.html">
-		<a link href="page1.html"> </a>
-		<div>
-			<div class="quote">Never half-ass two things. Whole-ass one thing.</div>
-		</div>
+	<body class="page2">
+		
+			<div class="center-column">
+
+				<a href="index.html"><button></button></a>
+
+				<img src="ron.jpg">
+				<div class="quote"> Never half-ass two things. Whole-ass one thing.</div>
+				
+			</div>
 	</body>
 
 </html>
