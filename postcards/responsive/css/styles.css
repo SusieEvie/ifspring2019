@@ -1,0 +1,46 @@
+.page1{
+	background-image: url(andy.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+}
+
+.page2{
+	background-image: url(april.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+}
+
+.page3{
+	background-image: url(ron.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	top: 0;
+}
+
+.link{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+
+body .quote{
+	font-family: Arvo;
+	position: relative;
+	margin-top: 45%;
+	margin-left: 45%;
+	font-size: 3rem;
+	right: 1em;
+	color: white;
+	max-width: 85%;
+	
+
+}
+
