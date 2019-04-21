@@ -1,46 +1,144 @@
-.page1{
-	background-image: url(andy.jpg);
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.center-column{
+	width: 100%;
 	position: relative;
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-	top: 0;
 }
 
-.page2{
-	background-image: url(april.jpg);
-	position: relative;
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-	top: 0;
+img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 10;
 }
 
-.page3{
-	background-image: url(ron.jpg);
-	position: relative;
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-	top: 0;
-}
-
-.link{
-	background-color: red;
-	height: 100px;
-	width: 100px;
-}
-
-body .quote{
+.quote{
+	z-index: 20;
+	position: absolute;
 	font-family: Arvo;
 	position: relative;
-	margin-top: 45%;
-	margin-left: 45%;
 	font-size: 3rem;
-	right: 1em;
 	color: white;
 	max-width: 85%;
-	
+	left: 5%;
+	padding-top: 100%;
+	text-shadow: 0px 4px 9px rgba(0, 0, 0, 1);
 
+}
+
+.page3 img{
+	left: -50%;
+}
+
+
+@media (max-width: 600px){
+
+	img{
+		width: 200%;
+	}
+
+	.quote{
+		font-size: 2rem;
+	}
+
+	.page2 img{
+		left: -25%;
+	}
+
+	.page2 .quote{
+		padding-top: 80%;
+		width: 50%;
+	}
+
+	.page3 img{
+		left: -50%;
+	}
+}
+
+/* 0-600 width*/
+@media (min-width: 600px){
+
+	img{
+		width: 175%;
+	}
+
+	.quote{
+		font-size: 2.3rem;
+		padding-top: 92%;
+	}
+
+	.page2 .quote{
+		padding-top: 80%;
+		width: 58%;
+		font-size: 2.7rem;
+	}
+}
+
+/* 600-768 width*/
+@media (min-width: 768px){
+
+	img{
+		width: 150%;
+	}
+
+	.quote{
+		font-size: 2.5rem;
+		padding-top: 80%;
+	}
+
+	.page2 .quote{
+		padding-top: 65%;
+		width: 58%;
+		font-size: 3rem;
+	}
+}
+
+/* 769-992 width*/
+@media (min-width: 992px){
+
+	img{
+		width: 125%;
+	}
+
+	.quote{
+		font-size: 2.5rem;
+		padding-top: 65%;
+	}
+
+	.page2 .quote{
+		padding-top: 50%;
+		width: 35%;
+		font-size: 3rem;
+	}
+
+	.page3	img{
+		left: 0; 
+	}
+}
+
+/* 992-1200 width*/
+@media (min-width: 1200px){
+
+	img{
+		width: 100%;
+	}
+
+	.quote{
+		font-size: 3rem;
+		padding-top: 45%;
+	}
+
+	.page2 .quote{
+		padding-top: 40%;
+		width: 30%;
+		font-size: 3.2rem;
+	}
+
+	.page3{
+		left: 0;
+	}
 }
 
